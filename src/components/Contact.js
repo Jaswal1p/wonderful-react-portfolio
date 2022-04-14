@@ -50,32 +50,45 @@ function ContactForm() {
     }
 
     return (
+        
         <section class="contact" >
 
+          <br></br>  
+
           <h1 data-testid="h1tag" >Contact me</h1>
+
+          <br></br>
 
           <form id="contact-form" onSubmit={handleSubmit}>
 
             <div>
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Your Name:</label>
                 <input type="text" name="name" onBlur= {handleChange}defaultValue={name}/>
             </div>
 
+            <br></br>
+
             <div>
-                <label htmlFor="email">Email address:</label>
+                <label htmlFor="email">Your Email Address:</label>
                 <input type="email" name="email" onBlur= {handleChange} defaultValue={email}/>
             </div>
+
+            <br></br>
 
             <div>
                 <label htmlFor="message">Message:</label>
                 <textarea name="message" rows="5" onBlur= {handleChange} defaultValue={message} />
             </div>
 
+            <br></br>
+            
             {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+
+            <br></br>
 
             <button data-testid="button" type="submit">Submit</button>
 
