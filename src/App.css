@@ -267,7 +267,8 @@ textarea {
 }
 
 .nav__link--active {
-  background-color: rgb(138, 105, 105);
+  border-radius: 5px;
+  background-color: rgb(218, 182, 182);
   color: black;
   list-style: none;
 }
