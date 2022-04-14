@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-
- import { validateEmail } from '../utils/helper.js';
-
+import { validateEmail } from '../utils/helper.js';
+import '../App.css';
 
 function ContactForm() {
 
@@ -51,7 +50,7 @@ function ContactForm() {
     }
 
     return (
-        <section>
+        <section class="contact" >
 
           <h1 data-testid="h1tag" >Contact me</h1>
 
