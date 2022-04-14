@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/Navbar.js';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
          <NavBar />
 
          <Switch>
-           <Route />
+           {/* <Route exact path='/' component={About} /> */}
+           <Route exact path='/contact' component={Contact} />
 
          </Switch>
       </>

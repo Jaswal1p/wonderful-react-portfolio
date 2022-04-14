@@ -1,4 +1,5 @@
 import React from 'react';
+//import ContactForm from '.components/Contact';
 
 function NavBar() {
     return (
@@ -25,13 +26,17 @@ function NavBar() {
 
                           <li className="nav-item">
                               <a className="nav-link" href="/contact">Contact</a>
+                          </li>
+
+                           <li className="nav-item">
+                              <a className="btn btn-dark rounded-pill nav-link" href="/resume">Resume</a>
                           </li>   
 
                       </ul>
 
-                      <div className="ml-auto my-2 my-lg-0">
+                      {/* <div className="ml-auto my-2 my-lg-0">
                               <a className="btn btn-dark rounded-pill nav-link" href="/resume">Resume</a>
-                      </div>
+                      </div> */}
                       
                   </div>
 
