@@ -1,3 +1,5 @@
+import React from 'react'
+
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -11,6 +13,8 @@ import Resume from './components/Resume';
 import NoMatch from './components/NoMatch';
 import { Redirect } from 'react-router-dom';
 
+
+// eslint-disable-next-line
 function App() {
   return (
     <Router>
