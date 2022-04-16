@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-
+import Resume from './components/Resume';
 import NoMatch from './components/NoMatch';
 import { Redirect } from 'react-router-dom';
 
@@ -25,7 +25,7 @@ function App() {
            <Route exact path='/contact' component={Contact} />
            <Route exact path='/Jaswal' component={Jaswal} />
            <Route exact path='/portfolio' component={Portfolio} />
-
+           <Route exact path='/resume' component={Resume} />
            <Route component={NoMatch} />
          </Switch>
          <br></br>
