@@ -6,8 +6,10 @@ import Jaswal from './components/Jaswal';
 import Contact from './components/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 import NoMatch from './components/NoMatch';
+import { Redirect } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,11 +18,14 @@ function App() {
          <NavBar />
          <br></br>
          <Switch>
-           <Route id="root" exact path='/' component={About} />
+           <Route exact path='/'>
+             <Redirect to="/about" />
+           </Route>
            <Route id="root" exact path='/about' component={About} />
            <Route exact path='/contact' component={Contact} />
            <Route exact path='/Jaswal' component={Jaswal} />
-           
+           <Route exact path='/portfolio' component={Portfolio} />
+
            <Route component={NoMatch} />
          </Switch>
          <br></br>
