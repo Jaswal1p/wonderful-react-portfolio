@@ -2,16 +2,16 @@ import React from 'react';
 import portfolio from '../data';
 import ProjectCards from '../components/AppsBuilt';
 import '../App.css';
-// import '../portfolio.css';
+import '../portfolio.css';
 
 const Portfolio = () => {
     return (
         <React.Fragment>
-            <div className='container'>
+            <div className='containerp'>
                 <div className='row'>
                     <div className='col'>
                         <div className='card'>
-                            <div className='card-body'>
+                            <div className='card-body-port'>
                                 <div className="header">
                                     <h3>Portfolio</h3>
                                 </div>
