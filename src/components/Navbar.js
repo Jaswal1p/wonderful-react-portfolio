@@ -7,7 +7,7 @@ function NavBar() {
        <>
           <nav className="navbar navbar-expand-lg navbar-light" sticky="top">
               <div className="container">
-                  <a className="navbar-brand" href="/"> Pupinder S Jaswal MD</a>
+                  <a className="navbar-brand" href="/jaswal"> Pupinder S Jaswal MD</a>
                   {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
 
