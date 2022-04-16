@@ -251,9 +251,10 @@ textarea {
   min-height: 9vh;
   background: #FEFAE0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .nav-band {
@@ -339,8 +340,8 @@ textarea {
 
 
 .card-body-port {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  /* margin-left: 1.5rem;
+  margin-right: 1.5rem; */
   flex: 1 1 auto;
   min-height: 1px;
   padding-top: 1rem;
@@ -491,7 +492,7 @@ button {
 @media screen and (max-width: 980px) {
   .grid-container-profile {
     grid-template-columns: repeat(2, 450px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 150px);
   }
 
   .header {
@@ -557,4 +558,3 @@ button {
 .navActive {
   color: var(--secondary);
 }
-

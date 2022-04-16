@@ -5,7 +5,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 120px);
     grid-gap: 10px;
     flex: 2 60%;
@@ -88,6 +88,20 @@
 
 .desc p {
     font-size: smaller;
+}
+
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 2px solid #071e36;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    margin-bottom: 0.25rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding-top: 1rem;
 }
 
 @media screen and (max-width: 980px) {
