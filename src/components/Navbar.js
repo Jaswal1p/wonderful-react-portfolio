@@ -8,9 +8,8 @@ function NavBar() {
           <nav className="navbar navbar-expand-lg navbar-light" sticky="top">
               <div className="container">
                   <NavLink 
-                        activeClassName="nav__link--active" 
-                        className="nav_link" 
-                        to="/jaswal"
+                        className="nav-brand" 
+                        to="/"
                     > 
                         Pupinder S Jaswal MD
                   </NavLink>
