@@ -18,7 +18,7 @@ import NoMatch from './components/NoMatch';
 function App() {
   return (
     <Router>
-      <>
+      {/* <> */}
          <NavBar />
          <br></br>
          <Switch>
@@ -34,7 +34,7 @@ function App() {
          </Switch>
          <br></br>
          <Footer/>
-      </>
+      {/* </> */}
     </Router>
   );
 }
