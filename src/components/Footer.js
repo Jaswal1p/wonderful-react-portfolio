@@ -8,7 +8,7 @@ function Footer() {
                 <div className='img-link'>
                 <a href="mailto:Jaswal1p@yahoo.com?" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/email.png" alt="email" className="icon"/></a>
                 <a href="https://github.com/Jaswal1p" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/github-2.png" alt="Github" className="icon"/></a>
-                <a href="https://www.linkedin.com/in/<myLinkedIn/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
+                <a href="https://www.linkedin.com/in/pupinderjaswal/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
                 <a href="https://stackoverflow.com/users/17116657/bobby-jaswal" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/stackoverflow.png" alt="Stackoverflow" className="icon"/></a>
             </div>
             <p className='footer-info'>
