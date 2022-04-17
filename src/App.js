@@ -2,7 +2,7 @@ import React from 'react'
 
 // import logo from './logo.svg';
 import './App.css';
-import { Redirect, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Redirect, HashRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/Navbar.js';
 import Jaswal from './components/Jaswal';
 import Contact from './components/Contact';
