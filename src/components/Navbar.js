@@ -9,7 +9,7 @@ function NavBar() {
               <div className="container">
                   <NavLink 
                         className="nav-brand" 
-                        to="/"
+                        to="/jaswal"
                     > 
                         Pupinder S Jaswal MD
                   </NavLink>
