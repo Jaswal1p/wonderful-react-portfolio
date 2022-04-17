@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# wonderful-react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NOTE:  Application is started in the terminal by command: npm start
 
-## Available Scripts
+## ![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg) 
+[View License](https://opensource.org/licenses/MIT) 
 
-In the project directory, you can run:
 
-### `npm start`
+# Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It was great to once again come back to front end & learn React. It was great to learn how modern web development complexity is handled with React. This home work assignment was an SPA with in-page navigation for differnt links to diffent component all with reloading the websit.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![AcceptCriteria](https://user-images.githubusercontent.com/92233527/163704483-49b54644-2061-4244-9f76-bb441b3baf4f.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
+# Table of Contents:
 
-### `npm run build`
+ * [Usage](#usage)
+ * [GitHub Repository Link](#github-repository-link)
+ * [GitHub Deployed Application URL](#github-deployed-application-url)
+ * [Screenshots](#screenshots)
+ * [License](#license)
+ * [Contributing](#Contributing)
+ * [Questions](#questions)
+ * [specific commands for npm dependencies](#npm-dependencies)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# GitHub Repository Link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://github.com/Jaswal1p/wonderful-react-portfolio.git
 
-### `npm run eject`
+ 
+# GitHub Deployed Application URL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://jaswal1p.github.io/wonderful-react-portfolio/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Initial deployment using local host, which shows page directly landing at 'about me' section, which is highlighted.
 
-## Learn More
+![DeployLocalHost](https://user-images.githubusercontent.com/92233527/163704632-46b74e43-a83d-4d46-8f82-a3e05a806cbc.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Installation
+  
+  The following must be installed to run this application. 
+  1. React
+  2. Bootstarp
+  3. Jest testing library
+  4. React-dom
+  5. React-router-dom
+  6. react-scripts
+  7. react-vitals
+  
 
-### Analyzing the Bundle Size
+# Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ This is a front end application built with react. This is my personal portfolio, which I plan to keep improving in future.
 
-### Making a Progressive Web App
+ # License 
+ > This project is licensed under the MIT license.
+ >
+ > Click the above link adjacent to badge to read further details.
+ 
+ # Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Contributors: I and only I have contributed to this project so far. 
 
-### Advanced Configuration
+ # Questions
+ If you have any questions about the repo/project, please open an issue or contact by: 
+ 
+ my github username: [Jaswal1p](https://github.com/Jaswal1p) 
+ 
+ my email: Jaswal1p@yahoo.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# specific commands for npm dependencies: 
+  1. npx create-react-app wonderful-react-portfolio
+  2. npm install bootstrap
+  3. npm install @testing-library/react @testing-library/jest-dom --save-dev
+  4. npm install react-router-dom@5  (NOTE specifically the @5 version is needed for this project)
+  5. npm install -D gh-pages  (To install gh-pages as a dependency, to deploy the React site straight from command line)
