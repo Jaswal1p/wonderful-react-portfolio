@@ -13,7 +13,7 @@ function Resume() {
                     <div className='col'>
                         <div className='card'>
                             <div className='header'>
-                                <h5>Download Resume: <a href="https://github.com/Jaswal1p/wonderful-react-portfolio/blob/main/jaswal_resume2022.pdf" download> Pupinder S Jaswal</a></h5>
+                                <h5>Download Resume: <a href="https://github.com/Jaswal1p/wonderful-react-portfolio/blob/main/src/assets/img/jaswal_resume2022.pdf" download> Pupinder S Jaswal</a></h5>
                             </div>
                             <br></br>
                             <div className='row resume'>
