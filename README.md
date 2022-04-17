@@ -23,7 +23,7 @@ It was great to once again come back to front end & learn React. It was great to
  * [License](#license)
  * [Contributing](#Contributing)
  * [Questions](#questions)
- * [specific commands for npm dependencies](#npm-dependencies)
+ * [Specific commands for npm dependencies](#Dependencies)
 
 
 # GitHub Repository Link
@@ -78,7 +78,7 @@ https://jaswal1p.github.io/wonderful-react-portfolio/
  my email: Jaswal1p@yahoo.com
 
 
-# specific commands for npm dependencies: 
+# Specific commands for npm dependencies: 
   1. npx create-react-app wonderful-react-portfolio
   2. npm install bootstrap
   3. npm install @testing-library/react @testing-library/jest-dom --save-dev
