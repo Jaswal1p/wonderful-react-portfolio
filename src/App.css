@@ -365,13 +365,6 @@ textarea {
   };
   
 
-.abstract-back {
-  background-image: url(/src/assets/images/background.jpg);
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .grid-container {
   display: flex;
  
@@ -466,7 +459,7 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
+/* .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;
 	left: 0;
@@ -490,7 +483,7 @@ textarea {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
-}
+} */
 
 button {
 	background: var(--primary);
@@ -541,12 +534,12 @@ button {
     border-radius: 50%;
   }
 
-  /* .abstract-back {
+  .row-abstract-back {
     background-image: url(/src/assets/images/background.jpg);
     height: 180px;
     background-repeat: no-repeat;
     background-size: cover;
-  } */
+  }
 
   .grid-container-profile {
     grid-template-columns: repeat(2, 180px);
@@ -572,4 +565,11 @@ button {
 
 .navActive {
   color: var(--secondary);
+}
+
+.row-abstract-back {
+  background-image: url('./assets/images/background.jpg') !important;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

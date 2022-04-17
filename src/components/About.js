@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../App.css'
 import '../App.js';
 import '../index.css';
 import '../footer.css';
@@ -19,7 +19,7 @@ const About = () => {
                 <div className='row'>
                     <div className='card'>
                         <div className='card-bodyy'>
-                            <div className='row abstract-back'>
+                            <div className='row-abstract-back'>
                                 <img className='avatar' src={Avatar} alt="My-face" />
                             </div>
                         </div>

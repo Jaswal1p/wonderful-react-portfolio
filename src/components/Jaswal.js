@@ -14,7 +14,7 @@ const Jaswal = () => {
                 <div className='row'>
                     <div className='card'>
                         <div className='card-body'>
-                            <div className='row abstract-back'>
+                            <div className='row-abstract-back'>
                                 <img className='avatar' src={Avatar} alt="My-face" />
                             </div>
                         </div>
