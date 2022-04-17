@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "adf1ddb08147a3397d7d",
+    "revision": "0bbaab4328db249087e8",
     "url": "/wonderful-react-portfolio/static/css/main.aa2b8079.chunk.css"
   },
   {
-    "revision": "adf1ddb08147a3397d7d",
-    "url": "/wonderful-react-portfolio/static/js/main.adf1ddb0.chunk.js"
+    "revision": "0bbaab4328db249087e8",
+    "url": "/wonderful-react-portfolio/static/js/main.0bbaab43.chunk.js"
   },
   {
     "revision": "517527aa6758397229f0",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/wonderful-react-portfolio/static/media/jaswal_resume2022.072e8031.png"
   },
   {
-    "revision": "4d8c044261bbe141bc1890ff440cbf8c",
+    "revision": "75e5cfaa3d18efc469590123c261bf85",
     "url": "/wonderful-react-portfolio/index.html"
   }
 ];
