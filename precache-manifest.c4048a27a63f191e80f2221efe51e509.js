@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "85ac64051095d6534fbe",
+    "revision": "adf1ddb08147a3397d7d",
     "url": "/wonderful-react-portfolio/static/css/main.aa2b8079.chunk.css"
   },
   {
-    "revision": "85ac64051095d6534fbe",
-    "url": "/wonderful-react-portfolio/static/js/main.85ac6405.chunk.js"
+    "revision": "adf1ddb08147a3397d7d",
+    "url": "/wonderful-react-portfolio/static/js/main.adf1ddb0.chunk.js"
   },
   {
     "revision": "517527aa6758397229f0",
     "url": "/wonderful-react-portfolio/static/js/1.517527aa.chunk.js"
   },
   {
-    "revision": "9966278125963d93adcb",
-    "url": "/wonderful-react-portfolio/static/js/2.99662781.chunk.js"
+    "revision": "144f3abf7a35db10c2fc",
+    "url": "/wonderful-react-portfolio/static/js/2.144f3abf.chunk.js"
   },
   {
     "revision": "5b732da54efb4c9f829b",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/wonderful-react-portfolio/static/media/jaswal_resume2022.072e8031.png"
   },
   {
-    "revision": "53af365c56c2a5d4b6a56d72947ae814",
+    "revision": "4d8c044261bbe141bc1890ff440cbf8c",
     "url": "/wonderful-react-portfolio/index.html"
   }
 ];
