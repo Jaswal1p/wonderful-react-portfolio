@@ -7,7 +7,13 @@ function NavBar() {
        <>
           <nav className="navbar navbar-expand-lg navbar-light" sticky="top">
               <div className="container">
-                  <NavLink className="nav_link" to="/jaswal"> Pupinder S Jaswal MD</NavLink>
+                  <NavLink 
+                        activeClassName="nav__link--active" 
+                        className="nav_link" 
+                        to="/jaswal"
+                    > 
+                        Pupinder S Jaswal MD
+                  </NavLink>
                  
 
                 <div className="nav-band" id="navbarToggler">
