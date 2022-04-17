@@ -22,8 +22,9 @@ It was great to once again come back to front end & learn React. It was great to
  * [Screenshots](#screenshots)
  * [License](#license)
  * [Contributing](#Contributing)
+ * [Dependencies](#dependencies)
  * [Questions](#questions)
- * [Dependencies](#Specific commands for npm dependencies)
+ 
 
 
 # GitHub Repository Link
