@@ -2,7 +2,7 @@ import React from 'react'
 
 // import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Redirect, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavBar from './components/Navbar.js';
 import Jaswal from './components/Jaswal';
 import Contact from './components/Contact';
@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import NoMatch from './components/NoMatch';
-import { Redirect } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
 
 
 // eslint-disable-next-line
