@@ -4,7 +4,7 @@ import MyHealthChart from './assets/images/myHealthChart.png';
 import PeachTechBlog from './assets/images/PeachTechBlog.png';
 import PwaBudgetTracker from './assets/images/PwaBudgetTracker.png';
 import RecepieBudget from './assets/images/RecepieBudget.png';
-import GitItDone from './assets/images/GitItDone.png';
+import MovieSearch from './assets/images/MovieSearch.png';
 
 
 export default [
@@ -46,9 +46,9 @@ export default [
     },
     {
         "id": 6,
-        "name": "git-it-done",
-        "image": GitItDone,
-        "github": "https://github.com/Jaswal1p/git-it-done.git",
-        "deploy": "https://jaswal1p.github.io/git-it-done/"
+        "name": "TMDB Movies Search",
+        "image": MovieSearch,
+        "github": "https://github.com/Jaswal1p/stunning-mas-green-jas.git",
+        "deploy": "https://stunning-mas-green-jas.herokuapp.com/"
     }
 ]
