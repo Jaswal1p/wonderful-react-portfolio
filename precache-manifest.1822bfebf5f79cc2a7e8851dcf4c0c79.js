@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ae3cbcab54c81e8f2b66",
+    "revision": "7b79b58ebe055f066c52",
     "url": "/wonderful-react-portfolio/static/css/main.aa2b8079.chunk.css"
   },
   {
-    "revision": "ae3cbcab54c81e8f2b66",
-    "url": "/wonderful-react-portfolio/static/js/main.ae3cbcab.chunk.js"
+    "revision": "7b79b58ebe055f066c52",
+    "url": "/wonderful-react-portfolio/static/js/main.7b79b58e.chunk.js"
   },
   {
     "revision": "517527aa6758397229f0",
@@ -64,15 +64,15 @@ self.__precacheManifest = [
     "url": "/wonderful-react-portfolio/static/media/RecepieBudget.ca24a14f.png"
   },
   {
-    "revision": "60c22a90471cf8a4a5de402364cd3b53",
-    "url": "/wonderful-react-portfolio/static/media/GitItDone.60c22a90.png"
+    "revision": "4888d722ad29b2a32cfe4999c64fc8a1",
+    "url": "/wonderful-react-portfolio/static/media/MovieSearch.4888d722.png"
   },
   {
     "revision": "072e8031ba3a23aeda079f0b3ea83b3a",
     "url": "/wonderful-react-portfolio/static/media/jaswal_resume2022.072e8031.png"
   },
   {
-    "revision": "2543ea83122869fc0025dbc72ea42f4b",
+    "revision": "ae86f14153e0584399165786bccdc0d4",
     "url": "/wonderful-react-portfolio/index.html"
   }
 ];
